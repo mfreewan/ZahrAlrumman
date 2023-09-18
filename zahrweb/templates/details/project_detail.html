@@ -1,0 +1,15 @@
+<!-- @format -->
+
+{% extends 'basic.html' %} {% block content %}
+<section class="article">
+  <div>
+    <h2>{{ projects.Name }}</h2>
+    <img
+      src="{{ projects.Image.url }}"
+      alt="{{ projects.Title }}"
+      width="400"
+      height="400" />
+    <p>{{ projects.Details }}</p>
+  </div>
+</section>
+{% endblock %}

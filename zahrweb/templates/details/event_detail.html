@@ -1,0 +1,20 @@
+<!-- @format -->
+
+{% extends 'basic.html' %} {% block content %}
+<section class="article">
+  <div>
+    <h2>{{ event.NameOfEvent }}</h2>
+    <img
+      src="{{ event.Image.url }}"
+      alt="{{ event.NameOfEvent  }}"
+      width="400"
+      height="400" />
+    <p>{{ event.Description }}</p>
+    <br />
+    <p>{{event.DateTimeOFEvent}}</p>
+    <br />
+    <p>{{event.Location}}</p>
+    <a href="{% url 'event_register' %}">اضغط هنا للمشاركة في الفعالية </a>
+  </div>
+</section>
+{% endblock %}

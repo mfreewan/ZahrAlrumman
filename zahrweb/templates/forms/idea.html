@@ -1,0 +1,12 @@
+<!-- @format -->
+{% extends 'basic.html' %} {% block content %}
+
+<div class="inkinddonation">
+  <h1>ادخل معلومات فكرتك و تجنب الاسهاب في ذلك</h1>
+  <form method="post">
+    {% csrf_token %} {{ form.as_p }}
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+{% endblock %}

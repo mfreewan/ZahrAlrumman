@@ -1,0 +1,36 @@
+<!-- @format -->
+
+{% extends 'basic.html' %} {% block content %}
+<h1>Volunteer Registration Form</h1>
+<!-- <form method="post">
+  {% csrf_token %}
+  
+  {{ form.as_p }}
+  <button type="submit">Submit</button>
+</form> -->
+<form method="post">
+  {% csrf_token %}
+
+  <!-- <input type="" name="username" value="freewan" /> -->
+  <p>
+    <label for="id_RegisterDate">Registerdate:</label>
+    <input type="date" name="RegisterDate" required id="id_RegisterDate" />
+  </p>
+
+  <p>
+    <label for="id_field_of_volunteers">Field of volunteers:</label>
+    <select name="field_of_volunteers" required id="id_field_of_volunteers">
+      <option value="" selected>---------</option>
+
+      <option value="Computer">Computer</option>
+
+      <option value="Projects">Projects</option>
+
+      <option value="Education">Education</option>
+    </select>
+
+    <span class="helptext">type or field of voulnteer</span>
+  </p>
+  <button type="submit">Submit</button>
+</form>
+{% endblock %}

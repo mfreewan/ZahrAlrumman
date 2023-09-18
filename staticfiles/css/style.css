@@ -1,0 +1,1086 @@
+/*Add style sheet for top nav bar */
+
+/* Add a black background color to the top navigation */
+.headertop {
+    background: #131922;
+    overflow: hidden;
+    width: 100%;
+    height: 160px;
+}
+
+@media (min-width:0px) and (max-width:400px) {
+
+    .headertop,
+    .top1,
+    .top2 {
+        width: 100%;
+        height: auto;
+        float: none;
+        padding: auto;
+        margin: auto;
+    }
+}
+
+/* Style the links inside the navigation bar */
+.top2 a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30px;
+    margin-top: 73px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+
+.top2 a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 25px;
+
+
+}
+
+/* set the image and label locaion in nav */
+.top1 {
+    width: 15%;
+    float: right;
+    margin-right: 10px;
+}
+
+/*set image poster in nav */
+.top1 img {
+    width: 60%;
+    float: right;
+    margin-right: 7px;
+}
+
+/*set the label under image poster in nav */
+.top1 label {
+
+    color: antiquewhite;
+    text-shadow: -2px -1px 2px;
+    float: right;
+    width: 100%;
+    margin-right: -80px;
+}
+
+
+/* set the links and label locaion in nav */
+.top2 {
+    padding-right: 830px;
+    height: 40px;
+    padding-top:15ps;
+
+}
+
+/* set  icons in nav  space and location */
+#icons a i {
+    border-radius: 80px;
+    font-size: 20px;
+    color: antiquewhite;
+    float: right;
+    position: absolute;
+    left: 600px;
+    top: 125px;
+}
+
+/*------------------------------------------------- end stylesheet for nav bar --------*/
+
+
+/* add stylesheet for images slide show 
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #051d29;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media (min-width:600px) and (max-width:800px) {
+    .slideshow-container {
+        width: 100%;
+        height: auto;
+        float: none;
+        padding: auto;
+        margin: auto;
+        font-size: 10px;
+    }
+}
+
+/*--------------------------------- end of slide show style -------------*/
+
+
+/*set  count style sheet */
+.count {
+    background: #2b2b2b;
+    float: left;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+
+
+}
+
+.count1 div {
+    width: 100%;
+    background: #2b2b2b;
+    margin-right: 50%;
+    height: 140px;
+
+
+}
+
+.count1 h1 {
+
+    color: #ffbd12;
+    font-size: 60px;
+    font-weight: bolder;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40%;
+
+}
+
+.count1 span {
+    color: blue;
+    font-size: 60px;
+    font-weight: bolder;
+    float: right;
+    margin-top: 20px;
+}
+
+.count div {
+
+    width: 25%;
+    float: right;
+    height: 50px;
+    margin-right: -15px;
+    margin-top: 20px;
+
+
+}
+
+.count div i {
+    font-size: 60px;
+    color: #28a745;
+}
+
+.count div label {
+    color: antiquewhite;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.count div h2 {
+    font-size: 50px;
+}
+
+.count2 {
+    color: #ffbd12
+}
+
+.count3 {
+    color: blue;
+}
+
+.count4 {
+    color: chocolate;
+}
+
+.count5 {
+    color: darkgoldenrod;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .count,
+    .count1 {
+        width: 100%;
+        height: 1000px;
+        margin: auto;
+        padding: auto;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .count,
+    .count1 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .count,
+    .count1 {
+        width: 100%;
+        height: auto;
+
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .count,
+    .count1 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+
+    .count,
+    .count1 {
+        width: 100%;
+    }
+}
+
+/*------------------ end of count stylesheet---------*/
+
+/*set icons part under count style sheet */
+
+.part3 div {
+    width: 22%;
+    border-radius: 80px;
+    height: 220px;
+    background-color: antiquewhite;
+    float: right;
+    margin-right: 30px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bolder;
+
+}
+
+.part3 div i {
+    padding-top: 30px;
+    width: 100%;
+    padding-bottom: 50px;
+    font-size: 60px;
+}
+
+.part3 a div:hover {
+
+    background-color: rgb(100, 233, 48);
+    border-radius: 1px solid;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .part3 {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding: auto;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .part3 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .part3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .part3 div {
+        width: 22%;
+        border-radius: 80px;
+        height: 220px;
+        background-color: antiquewhite;
+        float: right;
+        margin-right: 30px;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 40px;
+        font-weight: bolder;
+
+    }
+
+    .part3 div i {
+        padding-top: 30px;
+        width: 100%;
+        padding-bottom: 50px;
+        font-size: 60px;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .part3 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+    .part3 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*set color for icons*/
+#part3-1 i {
+
+    color: #28a745
+}
+
+#part3-1 label {
+    color: #ffbd12
+}
+
+#part3-2 i {
+    color: blueviolet;
+}
+
+#part3-2 label {
+    color: brown;
+}
+
+#part3-3 i {
+    color: green;
+}
+
+#part3-3 label {
+    color: red;
+}
+
+#part3-4 i {
+    color: darkblue
+}
+
+#part3-4 label {
+    color: darkslategray;
+}
+
+/*----------------------------------end of icon part stylesheet -------------*/
+
+/*set active  projects style sheet */
+
+/*set spaces and style for all projects*/
+#projects-label div {
+    width: 100%;
+    height: 100px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 30px;
+    border: 1px solid rgb(20, 26, 54);
+    border-radius: 18px;
+    padding-top: 20px;
+    background-color: #dfd1d1;
+
+
+}
+
+#projects {
+    
+    margin-left: 5px;
+    height: 630px;
+}
+
+#projects section {
+    width: 30%;
+    height: 600px;
+    float: right;
+    margin-right: 20px;
+    background-color: #f8f8f8;
+    border-radius: 50px;
+    border: 1px solid #2b2b2b;
+}
+
+/*set images of projects style */
+#projects img {
+    width: 441px;
+    height: 340px;
+    padding-left: px;
+    border-radius: 50px;
+
+}
+#projects p{
+        display: block;
+        padding-right: px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 33px;
+        color: #2b2b2b;
+        font-family: 'Tajawal', sans-serif;
+    
+}
+#projects a{
+    text-decoration: none;
+}
+
+
+/*-------------------------------end of projects style ------------*/
+
+/*set news style sheet */
+
+#newslabel {
+
+    font-weight: bolder;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 100px;
+    padding-top: 15px;
+    border: 1px solid rgb(20, 26, 54);
+    border-radius: 18px;
+    background-color: #dfd1d1;
+}
+
+#news {
+    width: 100%;
+    height: 500px;
+}
+
+
+#news div {
+    width: 31%;
+    height: 500px;
+    float: right;
+    margin-right: 20px;
+    border: 1px solid #2b2b2b;
+    border-radius: 14px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+
+
+}
+
+#news div a img {
+    width: 442px;
+    height: 320px;
+    border-radius: 40px;
+
+}
+
+#news div a p {
+    display: block;
+    padding-right: px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 33px;
+    color: #2b2b2b;
+    font-family: 'Tajawal', sans-serif;
+}
+
+#img {
+    width: 100%;
+    height: 850px;
+
+}
+
+#news div a {
+    text-decoration: none;
+}
+
+/*--------------------------------------------end of news stylesheet ------------*/
+
+/* Add style sheet for about page that contain information of zahr alrumman */
+#information{
+    
+}
+
+#information1 {
+
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+#information2 ul li {
+    list-style: circle;
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+#information3 {
+
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/*set images sizes*/
+#imgagesof img {
+
+    width: 50%;
+    height: 50%;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+#information {
+
+    text-align: right;
+}
+
+/*------------------------------------- end of about page style sheet ---------------------*/
+
+
+
+
+/*Add style sheet for login page */
+
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+    text-align: rtl;
+    align-items: center;
+}
+
+/* Full-width inputs */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: right;
+
+}
+
+
+/* Set a style for all buttons */
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+    float: right;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+
+}
+
+.container {
+
+    text-align: right;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: right;
+    }
+
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+
+* {
+    box-sizing: border-box
+}
+
+/*------------------------------------- end of login page style sheet ---------------------*/
+
+
+/*Add style sheet for signup page*/
+
+/* Full-width input fields */
+input[type=text],
+input[type=email],
+input[type=password],
+input[type="number"] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    text-align: right;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* align text from left to right for signup page*/
+#signup {
+
+    text-align: right;
+    background-color: none;
+
+}
+
+#terms {
+    display: inline;
+    background-color: transparent;
+    position: absolute;
+    left: 155px;
+    top: 942px;
+
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+
+    .cancelbtn,
+    .signupbtn {
+        width: 100%;
+    }
+}
+
+/*------------------------------------- end of signup page style sheet ---------------------*/
+
+
+* {
+    box-sizing: border-box
+}
+
+
+/* footer stylesheet-----*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    background: #131922;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+.social-icon,
+.menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+    list-style: none;
+}
+
+.social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.social-icon__link:hover {
+    transform: translateY(-10px);
+}
+
+.menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+}
+
+
+.footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+
+/* Style the form container */
+
+.inkinddonation div {
+
+    
+}
+.inkinddonation form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    
+}
+
+/* Style the form elements */
+.inkinddonation input[type=text],input[type=number],input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+}
+
+.inkinddonation h1 {
+
+    color: #28a745;
+    float: right;
+    float:left;
+    width: 100%;
+}
+
+.inkinddonation label,span {
+    font-weight: bold;
+    float: right;
+    
+}
+
+.inkinddonation button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.inkinddonation button[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add responsiveness - adjust input fields on small screens */
+@media screen and (max-width: 600px) {
+
+    input[type=text],
+    select,
+    textarea {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+
+
+
+
+
+label {
+    font-weight: bold;
+}
+
+button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+button[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add responsiveness - adjust input fields on small screens */
+@media screen and (max-width: 600px) {
+
+    input[type=text],
+    select,
+    textarea {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.article {
+    margin: 20px ;
+    float: left;
+}
+
+.article h2 {
+    font-size: 50px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.article img {
+    max-width: 100%;
+}
+
+.article p {
+    font-size: 27px;
+    line-height: 1.5;
+}
+
+.article p:last-child {
+    margin-top: 10px;
+    font-style: italic;
+    color: #999;
+    font-size: 40px;
+}
+
+/* Custom styles for slick carousel */
+
+.slick-dots {
+    bottom: 20px;
+    /* Position of dots */
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    opacity: .7;
+}
+
+.slick-prev {
+    left: 20px;
+    background: url("https://cdn.jsdelivr.net/gh/malihu/SPSG/assets/arrows-white.png") no-repeat left top;
+}
+
+[dir="rtl"] .slick-prev {
+    right: 20px;
+    left: auto;
+    background-position: right top;
+}
+
+.slick-next {
+    right: 20px;
+    background: url("https://cdn.jsdelivr.net/gh/malihu/SPSG/assets/arrows-white.png") no-repeat right top;
+}
+
+[dir="rtl"] .slick-next {
+    right: auto;
+    left: 20px;
+    background-position: left top;
+}
+
